@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./rps.css">
+    <title>Pedra, Papel, Tesoura</title>
+</head>
+<body>
+    <header><h1>Pedra Papel Tesoura</h1></header>
+    <main>
+        <div id="userInputContainer">
+            <h2>Escolha</h2>
+            <ul>
+                <li>
+                    <p id="rock">&#9994;&#127996;</p>
+                    <p id="rock">Pedra</p>
+                </li>
+                <li>
+                    <p id="paper">&#9995;&#127996;</p>
+                    <p id="paper">Papel</p>
+                </li>
+                <li>
+                    <p id="scissor">&#9996;&#127996;</p>
+                    <p id="scissor">Tesoura</p>
+                </li>
+            </ul>
+            <label class="container">Clique aqui para esconder sua escolha do computador.
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div id="battleContainer">
+            <h2>Batalha Épica</h2>
+            <div id="battleField">
+                <div id="userWarriorContainer">
+                    <p id="userWarriorName">Você</p>
+                    <p id="userWarriorSimble">?</p>
+                </div>
+                <p id="battleText">X</p>
+                <div id="computerWarriorContainer">
+                    <p id="computerWarriorName">Máquina</p>
+                    <p id="computerWarriorSimble">?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./rps.js"></script>
+</body>
+</html>
